@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.age-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    background-size: cover;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3),
+    -4px -6px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+button{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+button:hover{
+    transition: 1s ease-in-out;
+    color: blue;
+    font-weight: bold;
+    background-color: black;
+}
